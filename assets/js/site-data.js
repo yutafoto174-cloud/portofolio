@@ -57,7 +57,7 @@ const PROYEK = [
     deskripsi: 'Sistem informasi asrama dengan login berbasis peran, dirancang lewat riset Design Thinking dan usability testing.',
     tags: ['HTML', 'PHP', 'MySQL'],
     gambar: 'assets/img/projects/siar.jpg',
-    url: 'https://example.com', // GANTI dengan link website
+    url: 'file:///C:/Users/kreogkierg/Downloads/asrama_2-2_2.html', // GANTI dengan link website
     aksi: 'Kunjungi Website',
   },
   {
@@ -107,7 +107,7 @@ const PROYEK = [
     deskripsi: 'Platform tryout online: spesifikasi kebutuhan (SRS) dan kerangka aplikasi Laravel.',
     tags: ['Laravel', 'PHP'],
     gambar: 'assets/img/projects/edutech.jpg',
-    url: 'https://example.com', // GANTI dengan link website
+    url: 'file:///C:/Users/kreogkierg/Downloads/edutech_landing_page.html', // GANTI dengan link website
     aksi: 'Kunjungi Website',
   },
 ];
