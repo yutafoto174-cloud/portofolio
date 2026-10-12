@@ -51,13 +51,13 @@ const SOSMED = [
 const PROYEK = [
   
   {
-    id: 'siar',
-    judul: 'SIAR Undiksha',
-    kategori: 'Sistem Informasi',
-    deskripsi: 'Sistem informasi asrama dengan login berbasis peran, dirancang lewat riset Design Thinking dan usability testing.',
-    tags: ['HTML', 'PHP', 'MySQL'],
-    gambar: 'assets/img/projects/siar.jpg',
-    url: 'file:///C:/Users/kreogkierg/Downloads/asrama_2-2_2.html', // GANTI dengan link website
+    id: 'kossinga',
+    judul: 'KosSinga',
+    kategori: 'Dashboard',
+    deskripsi: 'Dasbor pencarian kos di singarja, Bali, Lengkap dengan filter, peta, dan detail kos. Dibuat dengan react.js dan Tailwind CSS.',
+    tags: ['HTML', 'JavaScript'],
+    gambar: 'assets/img/projects/kossinga.jpg',
+    url: 'https://yutafoto174-cloud.github.io/project-react-tek-web/', // GANTI dengan link website
     aksi: 'Kunjungi Website',
   },
   {
@@ -80,16 +80,7 @@ const PROYEK = [
     url: 'https://l.instagram.com/?u=https%3A%2F%2Fyutafoto174-cloud.github.io%2Fportofolio-yuta%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae5zMvMiwdeE76yEw9I_-MCW_zPoxYY0iZoygIEsyW80YXE9e9jJlfWuhMvGg_aem_2ISRaW2eU8iMIrKJLqkApQ&e=AUDLATLHUI1iZ8O9bhkbuKVxuh27VYaK5ZXyqSZq8SlJohc5TE317m5Ceg85ZofukFhoB5VKfPKU5mZpPL_1h_uglgulO22ErfAlN1Zo5EGGTVl5EW3YZSEsjBFWDqITkHxNgtw', // GANTI dengan link website
     aksi: 'Kunjungi Website',
   },
-  {
-    id: 'kossinga',
-    judul: 'KosSinga',
-    kategori: 'Dashboard',
-    deskripsi: 'Dasbor pencarian kos di singarja, Bali, Lengkap dengan filter, peta, dan detail kos. Dibuat dengan react.js dan Tailwind CSS.',
-    tags: ['HTML', 'JavaScript'],
-    gambar: 'assets/img/projects/kossinga.jpg',
-    url: 'https://yutafoto174-cloud.github.io/project-react-tek-web/', // GANTI dengan link website
-    aksi: 'Kunjungi Website',
-  },
+  
   {
     id: 'ecoguard',
     judul: 'EcoGuard',
@@ -108,6 +99,16 @@ const PROYEK = [
     tags: ['Laravel', 'PHP'],
     gambar: 'assets/img/projects/edutech.jpg',
     url: 'file:///C:/Users/kreogkierg/Downloads/edutech_landing_page.html', // GANTI dengan link website
+    aksi: 'Kunjungi Website',
+  },
+  {
+    id: 'siar',
+    judul: 'SIAR Undiksha',
+    kategori: 'Sistem Informasi',
+    deskripsi: 'Sistem informasi asrama dengan login berbasis peran, dirancang lewat riset Design Thinking dan usability testing.',
+    tags: ['HTML', 'PHP', 'MySQL'],
+    gambar: 'assets/img/projects/siar.jpg',
+    url: 'file:///C:/Users/kreogkierg/Downloads/asrama_2-2_2.html', // GANTI dengan link website
     aksi: 'Kunjungi Website',
   },
 ];
