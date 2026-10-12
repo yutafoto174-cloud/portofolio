@@ -1,0 +1,50 @@
+/* Token warna hitam-putih. Nilainya berupa "R G B" agar bisa dipakai dengan opasitas (bg-page/80). */
+:root {
+  color-scheme: light;
+  --c-page: 255 255 255;
+  --c-surface: 245 245 245;
+  --c-card: 255 255 255;
+  --c-fg: 10 10 10;
+  --c-muted: 82 82 82;
+  --c-line: 229 229 229;
+  --c-inv: 10 10 10;
+  --c-invfg: 250 250 250;
+}
+
+.dark {
+  color-scheme: dark;
+  --c-page: 10 10 10;
+  --c-surface: 23 23 23;
+  --c-card: 17 17 17;
+  --c-fg: 250 250 250;
+  --c-muted: 163 163 163;
+  --c-line: 38 38 38;
+  --c-inv: 250 250 250;
+  --c-invfg: 10 10 10;
+}
+
+html { scroll-behavior: smooth; }
+body { transition: background-color .25s ease, color .25s ease; }
+
+::selection { background: rgb(var(--c-fg)); color: rgb(var(--c-page)); }
+
+/* Garis kisi halus untuk latar hero, memudar ke tepi */
+.kisi {
+  background-image:
+    linear-gradient(rgb(var(--c-line)) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--c-line)) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 72%);
+  mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 72%);
+}
+
+/* Efek muncul saat scroll: hanya aktif bila JS berjalan (kelas "js" pada <html>) */
+.js [data-reveal] { opacity: 0; transform: translateY(1rem); transition: opacity .7s ease, transform .7s ease; }
+.js [data-reveal].tampil { opacity: 1; transform: none; }
+
+/* Hormati pengguna yang mematikan animasi */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  .js [data-reveal] { transform: none; }
+}

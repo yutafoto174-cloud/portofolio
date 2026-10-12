@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Tempat foto Yuta">
+  <rect width="800" height="1000" fill="#e5e5e5"/>
+  <circle cx="400" cy="390" r="135" fill="#a3a3a3"/>
+  <path d="M120 1000 C120 745 262 640 400 640 C538 640 680 745 680 1000 Z" fill="#a3a3a3"/>
+  <text x="400" y="885" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#262626">Foto Yuta</text>
+  <text x="400" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#525252">Taruh file foto-yuta.jpg di assets/img/</text>
+</svg>
