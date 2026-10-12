@@ -81,6 +81,16 @@ const PROYEK = [
     aksi: 'Kunjungi Website',
   },
   {
+    id: 'kossinga',
+    judul: 'KosSinga',
+    kategori: 'Dashboard',
+    deskripsi: 'Dasbor pencarian kos di singarja, Bali, Lengkap dengan filter, peta, dan detail kos. Dibuat dengan react.js dan Tailwind CSS.',
+    tags: ['HTML', 'JavaScript'],
+    gambar: 'assets/img/projects/kossinga.jpg',
+    url: 'https://yutafoto174-cloud.github.io/project-react-tek-web/', // GANTI dengan link website
+    aksi: 'Kunjungi Website',
+  },
+  {
     id: 'ecoguard',
     judul: 'EcoGuard',
     kategori: 'Dashboard',
